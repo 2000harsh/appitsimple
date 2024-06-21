@@ -1,0 +1,131 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.form {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 100%;
+}
+
+.custom-form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-input-outlined {
+    border-radius: 20px;
+    height: 40px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.f1btn {
+    background-color: #ffffff;
+    width: auto;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 22px;
+    color: #4A3AFF;
+    border-color: #4A3AFF;
+}
+
+.f2btn {
+    background-color: #4A3AFF;
+    width: auto;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.button-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: end;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.button-container2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.selectable-card {
+    flex: 0 0 calc(50% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100px;
+}
+
+.selectable-card.selected {
+    border-color: #1890ff;
+    box-shadow: 0 0 10px rgba(24, 144, 255, 0.5);
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.card-content .anticon {
+    font-size: 24px;
+    color: #1890ff;
+}
+
+.tableHeading{
+    font-weight: 700;
+    font-size: 32px;
+}
+.thick-divider{
+    border-top: 1px solid gray;
+}
+.title{
+    line-height: 15px;
+}
+.additionalInfo{
+    font-size: 18px;
+    color:darkgrey;
+}
+.iconBg{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 30px;
+    background-color: lightsteelblue;
+}
+
+.titleText{
+    background-color: #f0f2f5;
+}
