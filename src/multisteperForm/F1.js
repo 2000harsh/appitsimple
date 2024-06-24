@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Button, Card, Divider, Form, Input, Steps } from "antd";
 import "../style.scss";
 import { UserOutlined } from "@ant-design/icons";
@@ -38,7 +38,7 @@ const F1 = () => {
             label="Name"
             name="name"
             rules={[
-              { required: "true", message: "enter name" },
+              { required: "true", message: "Enter Your Name" },
               {
                 pattern: /^[A-Za-z\s]+$/,
                 message: "Name should only contain letters and spaces",
@@ -54,7 +54,7 @@ const F1 = () => {
             label="Email"
             name="email"
             rules={[
-              { required: "true", message: "enter name" },
+              { required: "true", message: "Enter Your Email" },
               {
                 pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
                 message: "Please enter a valid email address",

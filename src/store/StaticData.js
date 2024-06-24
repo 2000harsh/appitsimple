@@ -50,5 +50,3 @@ export const data1 = [
   { title: "$20,000-$50,000", value: "20000-50000" },
   { title: "$50,000+", value: "50000+" },
 ];
-
-// export default { cards1, data1 };
