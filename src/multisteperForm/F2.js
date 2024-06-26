@@ -38,9 +38,9 @@ const F2 = () => {
     <div className="form-container">
       <Card className="form">
         <Steps current={1}>
-          <Step title="Contact Details" />
-          <Step title="Our Services" />
-          <Step title="Summary" />
+          <Step />
+          <Step />
+          <Step />
         </Steps>
         <Divider className="thick-divider" />
         <h1 className="title">Our Services</h1>

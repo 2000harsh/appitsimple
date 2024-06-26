@@ -23,9 +23,9 @@ const F1 = () => {
     <div className="form-container">
       <Card className="form">
         <Steps current={0}>
-          <Step title="Contact Details" />
-          <Step title="Our Services" />
-          <Step title="Budget" />
+          <Step />
+          <Step />
+          <Step />
         </Steps>
         <Divider className="thick-divider" />
         <h1 className="title">Contact Details</h1>

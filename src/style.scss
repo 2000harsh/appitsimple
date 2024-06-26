@@ -129,3 +129,11 @@
 .titleText{
     background-color: #f0f2f5;
 }
+
+.ant-steps .ant-steps-item-process .ant-steps-item-icon {
+background-color: #4A3AFF;
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title::after{
+    background-color: #4A3AFF;
+}
